@@ -1,0 +1,178 @@
+.font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headerfont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.background{
+    background-color: #dc1fa0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    z-index: -1; 
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    padding: 10px;
+    padding-left: 12px;
+    padding-top: 1%;
+    font-size: 40px;
+    min-height: 6%;  
+}
+
+.paddingleft{
+    padding-left: 20px;
+}
+.paddingright{
+    padding-right: 150px;
+}
+
+.stuffgohere{
+    min-height: 79%;
+}
+
+.content-area{
+    display: block;
+    background-color: #dc1fa0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content-box{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    overflow: auto;
+}   
+
+.box1{
+    text-align: justify;
+    float: left;
+    margin-right: 5%;
+    margin-left: 5%;
+    line-height: 27px;
+}
+
+.box2{
+    text-align: justify;
+    float: right;
+    margin-right: 5%;
+    line-height: 27px;
+}
+
+
+
+.input{
+    vertical-align: top;
+}
+
+.textarea{
+    width: 500px;
+     overflow-wrap: break-word;
+     word-break: break-word;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    background-color: rgb(9, 9, 9);
+    font-size: 15px;
+    width: 100%;
+    color: white;
+    padding-top: 15px;
+    min-height: 6%;
+    z-index: 1;
+}
+
+.footertext{
+    color: rgb(153, 153, 153);
+    font-size: 10px;
+    padding-bottom: 1%;
+}
+
+.box3{
+width: 400px;
+text-align: justify;
+float: left;
+margin-right: 5%;
+margin-left: 5%;
+line-height: 27px;
+}
+
+.bar-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.chart-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 250px;
+    border: 1px solid #ccc;
+    margin: 16px;
+}
+
+.bar {
+    width: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 10px;
+    padding: 10px 2px; 
+    text-align: center;
+    background-color: #dc1fa0;
+    transition: height 0.3s ease;
+}
+
+.label {
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    color: rgb(0, 0, 0);
+}
+
+.box4 {
+    width: 200px;
+    padding-top: 55px;
+    text-align: justify;
+    float: right;
+    margin-right: 5%;
+    line-height: 27px;
+}
+
+.feilmeldingboks{
+    width: fit-content;
+    background-color: rgb(79, 87, 231);
+    border-style: solid;
+    border-color: rgb(31, 0, 153);
+    border-width: 4px;
+    border-radius: 30px;
+}
+
+.feilmelding{
+    color: rgb(244, 244, 244);
+    font-weight: bold;
+    padding: 10px;
+}
